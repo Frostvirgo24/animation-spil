@@ -1,0 +1,184 @@
+body {
+  background-color: grey
+}
+
+#screen {
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#baggrund {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img-svg/baggrund.svg);
+  background-size: cover;
+}
+
+#spil-elementer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#game_ui {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#start {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background-image: url(../img-svg/forside.svg);
+}
+
+#game-over {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background-image: url(../img-svg/gameover.svg);
+}
+
+#finish {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background-image: url(../img-svg/finish.svg);
+}
+
+
+  #start_knap {
+    aspect-ratio: 470 / 280;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img-svg/start.svg);
+    background-size: cover;
+    width: 200px;
+    height: auto;
+    cursor: pointer;}
+
+#spil_igen-1 {
+  aspect-ratio: 470/280;
+  position: absolute;
+  background-image: url(../img-svg/spiligen.svg);
+}
+#spil_igen-2 {
+  aspect-ratio: 470/280;
+  position: absolute;
+  background-image: url(../img-svg/spiligen.svg);
+}
+
+
+#gul_container {
+  width: 10%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#gul_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img-svg/krystal-1.svg);
+  background-size: cover;
+}
+
+#blue_container {
+  width: 10%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+#blue_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img-svg/krystal-2.svg);
+  background-size: cover;
+}
+#green_container {
+  width: 10%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+#green_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img-svg/krystal-3.svg);
+  background-size: cover;
+}
+#pink_container {
+  width: 10%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+}
+#pink_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img-svg/krystal-4.svg);
+  background-size: cover;
+}
+
+#scoreboard {
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1/1,6;
+  top: 50%;
+  left: 10%;
+  background-image: url(../img-svg/score.svg);
+  background-size: cover;
+}
+
+#tid {
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1/1,6;
+  top: 50%;
+  left: 10%;
+  background-image: url(../img-svg/tid-1.svg);
+  background-size: cover;
+}
+
+#liv {
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1/1,6;
+  top: 50%;
+  left: 10%;
+  background-image: url(../img-svg/liv.svg);
+  background-size: cover;}
+
